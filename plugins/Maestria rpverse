@@ -1,0 +1,35 @@
+class MeiYaoPlugin {
+    constructor() {
+        this.pseudo = "Mei Yao";
+        this.type_mage = "Mahotsukai";
+        this.race = "Humain";
+        this.rang = "E";
+        this.classe = "Novice";
+        this.defaites = 0;
+        this.victoires = 0;
+        this.trophees = 0;
+        this.total_combats = 0;
+        this.xeon = 0;
+        this.tokens = 0;
+        this.ec = 0;
+        this.equipement = [];p
+    }
+
+    afficher_profil(meistat) {
+        console.log(`Pseudo : ${this.pseudo}`);
+        console.log(`Type de mage : ${this.type_mage}`);
+        console.log(`Race : ${this.race}`);
+        console.log(`Rang : ${this.rang}`);
+        console.log(`Classe : ${this.classe}`);
+        console.log(`Défaites : ${this.defaites}`);
+        console.log(`Victoires : ${this.victoires}`);
+        console.log(`Trophées : ${this.trophees}`);
+        console.log(`Total des combats : ${this.total_combats}`);
+        console.log(`Xeon : ${this.xeon}`);
+        console.log(`Tokens : ${this.tokens}`);
+        console.log(`EC : ${this.ec}`);
+        console.log(`Équipement : ${this.equipement.join(", ")}`);
+    }
+}
+
+
