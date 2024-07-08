@@ -1,0 +1,1 @@
+journalctl -abfh --catalog="Maestria rpverse " --cursor="MRPV " --field=12 --follow --full --new-id128 --output=json --poweroff
